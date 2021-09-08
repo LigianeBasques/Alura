@@ -20,7 +20,7 @@ def jogar ():
 
             index = index + 1
 
-        print('Jogando...')
+        print(letras_acertadas)
 
     print("Game OVER")
 
