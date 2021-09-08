@@ -3,7 +3,6 @@ colocacao = ['Drible da Emoção', 'Bruxos como Ronaldinho', 'Só golaço', '3x1
 print(colocacao)
 
 
-campeao = colocacao[1]
+campeao = colocacao[0]
 
 print(' O grande campeão do torneio é o time ' + campeao)
-#Resultado:  O grande campeão do torneio é o time Bruxos como Ronaldinho
