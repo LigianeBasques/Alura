@@ -28,6 +28,7 @@ def jogar ():
                 index = index + 1
         else:
             erros = erros + 1
+            enforcou = erros == 6
 
         print(letras_acertadas)
 
