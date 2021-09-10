@@ -5,10 +5,9 @@ def jogar ():
     print("**************************************")
 
     palavra_secreta = 'maça'.upper()
-    letras_acertadas = []
+    letras_acertadas = ["_" for letra in palavra_secreta]
 
-    for letra in palavra_secreta:
-        letras_acertadas.append("_")
+
 
     enforcou = False
     acertou = False
