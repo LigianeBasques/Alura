@@ -1,8 +1,11 @@
-def jogar ():
-
+def imprimi_mensagem_abertura():
     print("*************************************")
     print("Bem vindo ao jogo de FORCA!")
     print("**************************************")
+
+
+def jogar ():
+
 
     palavra_secreta = 'maça'.upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
