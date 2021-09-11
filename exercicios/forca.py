@@ -3,6 +3,26 @@ def imprimi_mensagem_abertura():
     print("Bem vindo ao jogo de FORCA!")
     print("**************************************")
 
+def imprime_mensagem_perdedor(palavra_secreta):
+    print("Puxa, você foi enforcado!")
+    print("A palavra era {}".format(palavra_secreta))
+    print("    _______________         ")
+    print("   /               \       ")
+    print("  /                 \      ")
+    print("//                   \/\  ")
+    print("\|   XXXX     XXXX   | /   ")
+    print(" |   XXXX     XXXX   |/     ")
+    print(" |   XXX       XXX   |      ")
+    print(" |                   |      ")
+    print(" \__      XXX      __/     ")
+    print("   |\     XXX     /|       ")
+    print("   | |           | |        ")
+    print("   | I I I I I I I |        ")
+    print("   |  I I I I I I  |        ")
+    print("   \_             _/       ")
+    print("     \_         _/         ")
+    print("       \_______/           ")
+
 
 def jogar ():
     imprimi_mensagem_abertura()
@@ -44,7 +64,7 @@ def jogar ():
     else:
         print("Você perdeu")
 
-    print("Fim do jogo")
+    imprime_mensagem_perdedor(palavra_secreta)
 
 if(__name__ == "__main__"):
     jogar()
