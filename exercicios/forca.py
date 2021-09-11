@@ -24,6 +24,19 @@ def imprime_mensagem_perdedor(palavra_secreta):
     print("       \_______/           ")
 
 
+def imprime_mensagem_vencedor():
+    print("Parabéns, você ganhou!")
+    print("       ___________      ")
+    print("      '._==_==_=_.'     ")
+    print("      .-\\:      /-.    ")
+    print("     | (|:.     |) |    ")
+    print("      '-|:.     |-'     ")
+    print("        \\::.    /      ")
+    print("         '::. .'        ")
+    print("           ) (          ")
+    print("         _.' '._        ")
+    print("        '-------'       ")
+
 def jogar ():
     imprimi_mensagem_abertura()
 
@@ -60,11 +73,11 @@ def jogar ():
         print(letras_acertadas)
 
     if(acertou):
-        print("Você ganhou")
-    else:
-        print("Você perdeu")
 
-    imprime_mensagem_perdedor(palavra_secreta)
+        imprime_mensagem_vencedor()
+
+    else:
+       imprime_mensagem_perdedor(palavra_secreta)
 
 if(__name__ == "__main__"):
     jogar()
