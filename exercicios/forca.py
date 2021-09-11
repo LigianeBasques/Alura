@@ -5,6 +5,7 @@ def imprimi_mensagem_abertura():
 
 
 def jogar ():
+    imprimi_mensagem_abertura()
 
 
     palavra_secreta = 'maça'.upper()
